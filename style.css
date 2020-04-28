@@ -38,22 +38,6 @@ section {
 
 }
 
-p {
-  line-height: 1.3em;
-  font-family: 'raleway';
-
-  font-size: 1.58vw;
-  color: rgb(0, 0, 0);
-
-  position: relative;
-  transform: translate(-50%,-50%);
-  top: 50%;
-  left: 50%;
-  width: 45vw;
-  height: auto;
-  padding: 0.3em;
-}
-
 h1 {
   font-family: 'hello';
   color: white;
@@ -84,23 +68,13 @@ h3 {
   top: 0;
 }
 
-h4 {
-  font-family: 'sunrise';
-  font-size: 6.5vw;
-  font-weight: 100;
-
-  position: absolute;
-  top: 1;
-  left: 46%;
-}
-
-/*  Changement de couleur*/
+/*  SELECTION COLOR*/
 ::selection {
   background-color: #f3dedf;
   color: #ffffff;
 }
 
-/* No select */
+/* NO SELECT */
 img{
   -webkit-user-drag: none;
   user-select: none;
@@ -114,7 +88,6 @@ img{
 }
 
 .top {
-  /* position: fixed; */
   bottom: 0;
   height: 100vh;
   width: 100%;
@@ -127,14 +100,28 @@ img{
 .garland {
   width: auto;
 
-  /* display: flex; */
   position: relative;
   top: -5em;
   max-width: 100%;
   height: 100vh;
 }
 
-/* Déco tracés page-top */
+/* PORTRAIT CHINOIS PAGE */
+
+.fleches {
+  position: absolute;
+  bottom: 2em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.def {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+
+  width: 4%;
+}
 
 .t-g1 {
   position: absolute;
@@ -172,7 +159,7 @@ img{
   width: 10%;
 }
 
-/* Pages */
+/* PAGES */
 
 .page-avion,
 .page-instrument,
@@ -186,57 +173,7 @@ img{
   position: relative;
 }
 
-/* Portrait Chinois */
-
-.fleches {
-  position: absolute;
-  bottom: 2em;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.def {
-  position: absolute;
-  top: 2em;
-  left: 2em;
-
-  width: 4%;
-}
-
-/* Boutons */
-.side-button {
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  margin-top: 17px;
-}
-
-.s-button1 {
-  width: 30px;
-  height: 30px;
-  transform: translateX(-2.5px);
-  background-color: white;
-  transition: background-color 0.5s ease, box-shadow ease 0.5s;
-}
-
-.buttons {
-  opacity: 1;
-  visibility: visible;
-  position: fixed;
-  top: 0;
-  right: 2%;
-  margin-top: 50vh;
-  transform: translateY(-50%);
-  transition: opacity 1s ease, visibility 1s ease;
-}
-
-.right-arrow {
-  position: fixed;
-  right: -0.8em;
-  bottom: -3em;
-}
-
-/* Déco page avion */
+/* DECO PLANE */
 .t2-g {
   position: absolute;
   left: -2em;
@@ -261,7 +198,7 @@ img{
 
 }
 
-/* Déco page guitare */
+/* DECO GUITAR */
 .t3-g {
   position: absolute;
   bottom: 0;
@@ -281,7 +218,7 @@ img{
   bottom: -16em;
 }
 
-/* Déco page boxe */
+/* DECO BOXE */
 .t4-g {
   position: absolute;
   bottom: 0em;
@@ -289,7 +226,7 @@ img{
   width: 50vw;
 }
 
-/* Déco */
+/* DECO */
 .deco {
   position: absolute;
   bottom: 0;
@@ -297,7 +234,22 @@ img{
   width: 100%;
 }
 
-/* Bulle txt */
+/* BUBBLE */
+p {
+  line-height: 1.3em;
+  font-family: 'raleway';
+
+  font-size: 1.58vw;
+
+  position: relative;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  width: 45vw;
+  height: auto;
+  padding: 0.3em;
+}
+
 .place {
   transform: translate(-50%, -50%);
   position: absolute;
@@ -318,10 +270,26 @@ img{
   animation: bubble 7s infinite forwards linear;
 }
 
-.mini-bubble {
+/* TITTLE BUBBLE */
+h4 {
+  font-family: 'sunrise';
+  font-size: 6.5vw;
+  font-weight: 100;
+
   text-align: center;
+}
+
+.place2{
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 30vh;
+  left: 50%;
+}
+
+.mini-bubble {
   overflow: hidden;
   width: 15vw;
+
   background-color: #fab88f;
   border-radius: 22% 40% 72% 28% / 50% 54% 46% 51%;
   box-shadow: 2px 5px 10px #fdc19b;
