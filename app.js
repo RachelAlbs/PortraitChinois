@@ -49,7 +49,7 @@ window.onmousemove = function(e){
 //     })
 // });
 
-$(document).ready(function(){
-    if (welcomeSection == true){
-    }
-});
+// $(document).ready(function(){
+//     if (welcomeSection == true){
+//     }
+// });
