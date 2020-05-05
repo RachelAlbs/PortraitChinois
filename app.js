@@ -33,23 +33,4 @@ window.onmousemove = function(e){
     spanText.style.left = (x + 20) + 'px';
 };
 
-// $(document).ready(function(){
-//     var fullpage = false;
 
-//     // $(".enter-button").click(function(){
-//     //     if (fullpage == false){
-//     //         $(.).css({
-//     //             opacity
-//     //         });
-//     //     }
-//     // })
-
-//     $(".enter-button").click(function(){
-//         if (fullpage == )
-//     })
-// });
-
-// $(document).ready(function(){
-//     if (welcomeSection == true){
-//     }
-// });
